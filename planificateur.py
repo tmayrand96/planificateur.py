@@ -51,9 +51,6 @@ for i in range(1, st.session_state.compteur):
     heure_fin = st.time_input(f"Heure de fin {i+1}", value=pd.to_datetime("16:00").time(), key=f"fin_{i}")
     plages.append((heure_debut, heure_fin))
 
-if st.button("- Supprimer") and len(plages_horaires) > 1:
-    plages_horaires.pop()
-
 # ----- Génération du planning -----
 if st.button("🎯 Générer mon planning"):
     planning = []
