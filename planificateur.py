@@ -20,7 +20,7 @@ def appliquer_couleur_profil(profil):
         unsafe_allow_html=True,
     )
 
-st.title("🗓️ Planificateur de Journée Personnalisée")
+st.title("🗓️ Planificateur de Journée")
 
 # ----- Choix de l'âge -----
 ages = ["16-17", "18-21", "22-25", "26-29", "30-35", "36-40", "41-45", "45+"]
